@@ -1,0 +1,36 @@
+import turtle
+#turtle.pensize(5)
+#turtle.pencolor("blue")
+mc = turtle.Turtle()
+mc.penup()
+mc.goto(0,-200)
+mc.pendown()
+mc.circle(200)
+
+mc.penup()
+mc.goto(-100,50)
+mc.pendown()
+mc.color("red")
+mc.begin_fill()
+mc.circle(17.5)
+mc.end_fill()
+
+mc.penup()
+mc.goto(100,50)
+mc.pendown()
+mc.begin_fill()
+mc.circle(17.5)
+mc.end_fill()
+
+mc.penup()
+mc.goto(0,50)
+mc.pendown()
+mc.circle(-70, steps=3)
+
+mc.penup()
+mc.goto(-100,-70)
+mc.right(90)
+mc.pendown()
+mc.circle(100,180)
+
+mc.hideturtle()
